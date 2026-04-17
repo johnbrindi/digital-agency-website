@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Axon — Digital Agency</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Axon<span class="dot">.</span></a>
+      <ul class="nav__list" id="navList">
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#work" class="nav__link">Work</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#team" class="nav__link">Team</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--primary nav__cta">Get Started</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="badge">Award-winning digital studio</span>
+          <h1 class="hero__title">We Build <span class="gradient-text">Digital</span><br/>Experiences That<br/>Drive Growth</h1>
+          <p class="hero__sub">We craft bold brands, stunning websites, and powerful digital strategies that turn visitors into loyal customers.</p>
+          <div class="hero__actions">
+            <a href="#work" class="btn btn--primary btn--lg">View Our Work</a>
+            <a href="#contact" class="btn btn--ghost btn--lg">Talk to Us</a>
+          </div>
+          <div class="hero__stats">
+            <div class="stat">
+              <span class="stat__num" data-count="240">0</span><span class="stat__plus">+</span>
+              <span class="stat__label">Projects Done</span>
+            </div>
+            <div class="stat__divider"></div>
+            <div class="stat">
+              <span class="stat__num" data-count="98">0</span><span class="stat__plus">%</span>
+              <span class="stat__label">Happy Clients</span>
+            </div>
+            <div class="stat__divider"></div>
+            <div class="stat">
+              <span class="stat__num" data-count="12">0</span><span class="stat__plus">+</span>
+              <span class="stat__label">Years Experience</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__blob"></div>
+          <div class="hero__card hero__card--1">
+            <div class="hcard__icon">📈</div>
+            <div><p class="hcard__val">+127%</p><p class="hcard__desc">Revenue Growth</p></div>
+          </div>
+          <div class="hero__card hero__card--2">
+            <div class="hcard__icon">⭐</div>
+            <div><p class="hcard__val">4.9/5</p><p class="hcard__desc">Client Rating</p></div>
+          </div>
+          <div class="hero__mockup">
+            <div class="mockup__bar"><span></span><span></span><span></span></div>
+            <div class="mockup__body">
+              <div class="mockup__line w80"></div>
+              <div class="mockup__line w60"></div>
+              <div class="mockup__blocks">
+                <div class="mockup__block mockup__block--purple"></div>
+                <div class="mockup__block mockup__block--pink"></div>
+                <div class="mockup__block mockup__block--blue"></div>
+              </div>
+              <div class="mockup__line w90"></div>
+              <div class="mockup__line w70"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__marquee">
+        <div class="marquee__track">
+          <span>Branding</span><span>Web Design</span><span>Development</span><span>SEO</span><span>UI/UX</span><span>Motion</span><span>Strategy</span><span>Analytics</span>
+          <span>Branding</span><span>Web Design</span><span>Development</span><span>SEO</span><span>UI/UX</span><span>Motion</span><span>Strategy</span><span>Analytics</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">What We Do</span>
+          <h2 class="section__title">Services Built for <span class="gradient-text">Modern Brands</span></h2>
+          <p class="section__sub">End-to-end digital solutions from concept to launch and beyond.</p>
+        </div>
+        <div class="services__grid">
+          <div class="service-card" data-index="01"><div class="service-card__icon">🎨</div><h3>Brand Identity</h3><p>Logos, color systems, typography, and brand guidelines that make you unmistakable.</p><a href="#" class="service-card__link">Learn more</a></div>
+          <div class="service-card service-card--featured" data-index="02"><div class="service-card__icon">💻</div><h3>Web Design & Dev</h3><p>Pixel-perfect, blazing-fast websites engineered for conversion and delight.</p><a href="#" class="service-card__link">Learn more</a></div>
+          <div class="service-card" data-index="03"><div class="service-card__icon">📱</div><h3>Mobile Apps</h3><p>iOS & Android experiences your users will actually love using every day.</p><a href="#" class="service-card__link">Learn more</a></div>
+          <div class="service-card" data-index="04"><div class="service-card__icon">🔍</div><h3>SEO & Growth</h3><p>Organic traffic that compounds. We grow your digital footprint the right way.</p><a href="#" class="service-card__link">Learn more</a></div>
+          <div class="service-card" data-index="05"><div class="service-card__icon">🎬</div><h3>Motion & Video</h3><p>Animated explainers, social videos, and motion graphics that stop the scroll.</p><a href="#" class="service-card__link">Learn more</a></div>
+          <div class="service-card" data-index="06"><div class="service-card__icon">📊</div><h3>Analytics & CRO</h3><p>Data-driven insights and conversion optimization to maximize every visit.</p><a href="#" class="service-card__link">Learn more</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section" id="work">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">Portfolio</span>
+          <h2 class="section__title">Work We're <span class="gradient-text">Proud Of</span></h2>
+          <p class="section__sub">A selection of projects that showcase our craft.</p>
+        </div>
+        <div class="work__filters">
+          <button class="filter-btn filter-btn--active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="brand">Branding</button>
+          <button class="filter-btn" data-filter="app">Apps</button>
+        </div>
+        <div class="work__grid" id="workGrid">
+          <div class="work-card" data-category="web"><div class="work-card__img" style="background:linear-gradient(135deg,#6C63FF,#3ECFCF)"></div><div class="work-card__info"><span class="work-card__tag">Web Design</span><h3>Luminary SaaS Platform</h3><p>A complete design system and marketing site for a B2B analytics tool.</p></div></div>
+          <div class="work-card work-card--tall" data-category="brand"><div class="work-card__img" style="background:linear-gradient(135deg,#FF6584,#FF9A56)"></div><div class="work-card__info"><span class="work-card__tag">Branding</span><h3>Bloom Wellness Rebrand</h3><p>Full brand identity refresh for a wellness startup.</p></div></div>
+          <div class="work-card" data-category="app"><div class="work-card__img" style="background:linear-gradient(135deg,#43E97B,#38F9D7)"></div><div class="work-card__info"><span class="work-card__tag">Mobile App</span><h3>GreenRoute App</h3><p>Eco-friendly travel companion with real-time carbon tracking.</p></div></div>
+          <div class="work-card" data-category="web"><div class="work-card__img" style="background:linear-gradient(135deg,#F7971E,#FFD200)"></div><div class="work-card__info"><span class="work-card__tag">Web Dev</span><h3>Aurum E-Commerce</h3><p>High-performance luxury e-commerce with custom checkout flows.</p></div></div>
+          <div class="work-card" data-category="brand"><div class="work-card__img" style="background:linear-gradient(135deg,#A18CD1,#FBC2EB)"></div><div class="work-card__info"><span class="work-card__tag">Branding</span><h3>Nova Finance Identity</h3><p>Sophisticated brand system for a fintech startup launch.</p></div></div>
+          <div class="work-card work-card--wide" data-category="app"><div class="work-card__img" style="background:linear-gradient(135deg,#0F2027,#203A43,#2C5364)"></div><div class="work-card__info"><span class="work-card__tag">App + Web</span><h3>Orbit Project Management Suite</h3><p>End-to-end design and development of a cross-platform productivity suite.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about__inner">
+        <div class="about__visual">
+          <div class="about__img-wrap">
+            <div class="about__img about__img--main" style="background:linear-gradient(135deg,#667eea,#764ba2)"></div>
+            <div class="about__img about__img--accent" style="background:linear-gradient(135deg,#f093fb,#f5576c)"></div>
+          </div>
+          <div class="about__award"><span>🏆</span><div><p class="award__title">Awwwards SOTD</p><p class="award__sub">2023 &amp; 2024 Winner</p></div></div>
+        </div>
+        <div class="about__content">
+          <span class="section__badge">Who We Are</span>
+          <h2 class="section__title">A Studio That Puts <span class="gradient-text">Craft First</span></h2>
+          <p>We are a team of 30+ designers, developers, and strategists obsessed with building digital products that genuinely move the needle.</p>
+          <p>Founded in 2012, we have partnered with startups, scale-ups, and Fortune 500s across 40+ countries with relentless focus on quality.</p>
+          <ul class="about__list">
+            <li>Transparent process and fixed-scope delivery</li>
+            <li>Dedicated project manager on every engagement</li>
+            <li>Post-launch support included for 3 months</li>
+            <li>NDA-protected, secure workflows</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Start a Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="team section" id="team">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">The Team</span>
+          <h2 class="section__title">Meet the <span class="gradient-text">People</span> Behind the Work</h2>
+        </div>
+        <div class="team__grid">
+          <div class="team-card"><div class="team-card__avatar" style="background:linear-gradient(135deg,#6C63FF,#3ECFCF)">JD</div><h4>James Donovan</h4><p>CEO &amp; Creative Director</p><div class="team-card__socials"><a href="#">in</a><a href="#">tw</a></div></div>
+          <div class="team-card"><div class="team-card__avatar" style="background:linear-gradient(135deg,#f093fb,#f5576c)">SR</div><h4>Sofia Reyes</h4><p>Head of Design</p><div class="team-card__socials"><a href="#">in</a><a href="#">tw</a></div></div>
+          <div class="team-card"><div class="team-card__avatar" style="background:linear-gradient(135deg,#43E97B,#38F9D7)">MK</div><h4>Marcus Kim</h4><p>Lead Developer</p><div class="team-card__socials"><a href="#">in</a><a href="#">gh</a></div></div>
+          <div class="team-card"><div class="team-card__avatar" style="background:linear-gradient(135deg,#F7971E,#FFD200)">AL</div><h4>Aisha Laurent</h4><p>Strategy Director</p><div class="team-card__socials"><a href="#">in</a><a href="#">tw</a></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__badge">Testimonials</span>
+          <h2 class="section__title">What Our <span class="gradient-text">Clients Say</span></h2>
+        </div>
+        <div class="testimonials__grid">
+          <div class="testi-card"><div class="testi-card__stars">★★★★★</div><p>"Axon completely transformed our digital presence. Our conversion rate jumped 3x in the first quarter after launch."</p><div class="testi-card__author"><div class="testi-avatar" style="background:#6C63FF">CE</div><div><p class="author-name">Claire Evans</p><p class="author-role">CMO, Luminary</p></div></div></div>
+          <div class="testi-card testi-card--featured"><div class="testi-card__stars">★★★★★</div><p>"The team's attention to detail is unmatched. They delivered a world-class product on time and under budget."</p><div class="testi-card__author"><div class="testi-avatar" style="background:#FF6584">RP</div><div><p class="author-name">Ryan Park</p><p class="author-role">Founder, GreenRoute</p></div></div></div>
+          <div class="testi-card"><div class="testi-card__stars">★★★★★</div><p>"Working with Axon felt like having a senior product team in-house. Highly recommend to any serious brand."</p><div class="testi-card__author"><div class="testi-avatar" style="background:#43E97B">NB</div><div><p class="author-name">Nina Bowen</p><p class="author-role">CEO, Nova Finance</p></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact__inner">
+        <div class="contact__content">
+          <span class="section__badge">Get In Touch</span>
+          <h2 class="section__title">Ready to Build <span class="gradient-text">Something Great?</span></h2>
+          <p>Tell us about your project and we will get back to you within 24 hours.</p>
+          <div class="contact__info">
+            <div class="cinfo"><span>📧</span><span>hello@axon.studio</span></div>
+            <div class="cinfo"><span>📍</span><span>New York · London · Lagos</span></div>
+            <div class="cinfo"><span>📞</span><span>+1 (800) 123-4567</span></div>
+          </div>
+        </div>
+        <form class="contact__form" id="contactForm">
+          <div class="form__row">
+            <div class="form__group"><label>First Name</label><input type="text" placeholder="James" required /></div>
+            <div class="form__group"><label>Last Name</label><input type="text" placeholder="Donovan" required /></div>
+          </div>
+          <div class="form__group"><label>Email Address</label><input type="email" placeholder="james@company.com" required /></div>
+          <div class="form__group"><label>Project Type</label><select><option>Web Design &amp; Development</option><option>Brand Identity</option><option>Mobile App</option><option>SEO &amp; Growth</option><option>Other</option></select></div>
+          <div class="form__group"><label>Tell us about your project</label><textarea rows="4" placeholder="Describe your goals and timeline..."></textarea></div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form__note">We respond within 24 hours. No spam, ever.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="nav__logo">Axon<span class="dot">.</span></a>
+        <p>Building digital experiences that matter, one pixel at a time.</p>
+        <div class="footer__socials">
+          <a href="#">Twitter</a><a href="#">LinkedIn</a><a href="#">Dribbble</a><a href="#">GitHub</a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <div class="footer__col"><h5>Services</h5><a href="#">Web Design</a><a href="#">Branding</a><a href="#">Mobile Apps</a><a href="#">SEO</a></div>
+        <div class="footer__col"><h5>Company</h5><a href="#">About</a><a href="#">Team</a><a href="#">Careers</a><a href="#">Blog</a></div>
+        <div class="footer__col"><h5>Legal</h5><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Cookie Policy</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><p>2026 Axon Digital Studio. All rights reserved.</p></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
